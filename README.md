@@ -1,4 +1,4 @@
-# Grade Calculator App
+# Grade Calculator App (made by Cursor)
 
 A modern, feature-rich React Native mobile application for university students to calculate semester grades, analyze goals, and track academic performance.
 
