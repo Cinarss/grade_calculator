@@ -110,6 +110,8 @@ npm start
 - **Minimum Semester Grade**: 60
 - **Minimum Final Exam Grade**: 50
 - **Letter Grades**: Enabled
+- **Lang**: Turkish
+
 
 ## Calculation Formula
 
