@@ -82,6 +82,7 @@ npm start
    - Scan the QR code with Expo Go app (iOS/Android)
    - Press `i` for iOS simulator
    - Press `a` for Android emulator
+   - Press `w` for web browser
 
 ## Usage
 

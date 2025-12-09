@@ -1,12 +1,8 @@
-/**
- * Type definitions for the Grade Calculator App
- */
-
 export interface GradeSettings {
-  midtermWeight: number; // Percentage (0-100)
-  finalWeight: number; // Percentage (0-100)
-  minimumFinalGrade: number; // Minimum final exam grade to pass (0-100)
-  minimumSemesterGrade: number; // Minimum semester grade to pass (0-100)
+  midtermWeight: number;
+  finalWeight: number;
+  minimumFinalGrade: number;
+  minimumSemesterGrade: number;
   letterGradesEnabled: boolean;
   letterGradeRanges: LetterGradeRange[];
 }
@@ -37,7 +33,7 @@ export interface CalculationResult {
 export interface GoalInput {
   midterm: number | null;
   targetType: 'pass' | 'score' | 'letter';
-  targetValue: number | string | null; // For 'score': number, for 'letter': string
+  targetValue: number | string | null;
 }
 
 export interface GoalResult {
